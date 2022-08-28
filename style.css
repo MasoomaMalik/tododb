@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    background-image: url("img/bg.jpg.jpg");
+    background-position: center;
+    background-size: cover ;
+  font-family: 'Pacifico', cursive;  
+}
+.mainContainer{
+    width:100vw;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center
+    ;
+    flex-direction: column;
+    align-content: center;
+}
+.m{
+    margin:1rem;
+}
+.p{
+    padding:1rem;
+}
+.mcText{
+    text-align:center;
+    color: rgb(228, 244, 11);
+    text-shadow: 2px 2px 8px #FF0000;
+    /* background-color: rgb(100, 100, 92); */
+}
+ 
+.btn{
+    border:none;
+  
+}
+.addbtn{
+    border-radius: 100%;
+    background-color:transparent ;
+    border:none;
+
+}
+ 
+.addIcon{
+    color:rgb(255, 0, 221);
+        font-size: 3rem;
+    text-align: center;
+
+}
+.c1 , .c2{
+    /* text-align: center; */
+    width:70vw;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    /* border:1px solid green; */
+    align-self: center
+    ;
+}
+.todolist{
+    list-style-type: none;
+    width:100%;
+    /* text-align: center; */
+}
+.todolist li{
+    width:60vw;
+    /* display:flex; */
+    /* border:1px solid blue; */
+    /* align-content: center; */
+    /* justify-content: ; */
+
+
+}
+.liii p{
+    width:90%;
+    border: 0.25rem solid white;
+    padding: 1rem;
+}
+.liii{
+    /* border:1px solid black; */
+    margin: 3rem;
+    
+    width: 80%;
+    display: flex;
+    /* background-color: yellow; */
+}
+.c1 input{
+    width:80%;
+}
+ 
+.editbtn{
+    font-size: 2rem;;
+}
+
+.fa-trash-can, .editbtn{
+    color:rgb(255, 0, 221);
+    font-size: 3rem;
+   margin: 0.5rem;
+
+}
+
+#todoitem{
+    width:80%;
+}
